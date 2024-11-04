@@ -4,13 +4,20 @@
   <img src="https://github.com/user-attachments/assets/772a9f70-4892-461c-9654-f89aee47ac11" alt="Starbugs" width="70%">
 </p>
 
-Este repositório contém a suíte de testes automatizados desenvolvida para o e-commerce [Starbugs](https://starbugs.vercel.app/).
+Este repositório contém a suíte de testes automatizados desenvolvida para o e-commerce da cafeteria [Starbugs](https://starbugs.vercel.app/).
 
 ## Objetivo
 O objetivo do projeto é criar uma automação que simule o fluxo de compra no site Starbugs, proporcionando uma experiência sem falhas para o usuário. A aplicação foca em garantir uma jornada de navegação fluida desde a escolha do produto até o pagamento na entrega.
 
 ## Arquitetura
 Os testes automatizados foram desenvolvidos utilizando Ruby, Capybara, Cucumber e a linguagem de descrição de cenários Gherkin. Para maior organização, os testes foram implementados com o design pattern Page Objects, que permite melhor manutenção e reutilização do código.
+
+## 💻 Tecnologias
+- Ruby
+- Capybara
+- RSpec
+- Cucumber
+- Selenium WebDriver
 
 ## Testes Implementados
 Foram desenvolvidos cenários ponta-a-ponta (E2E) simulando interações de usuário no fluxo de:
